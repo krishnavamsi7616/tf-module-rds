@@ -11,3 +11,4 @@ resource "aws_db_instance" "main" {
   vpc_security_group_ids = [aws_security_group.main.id]
   identifier = local.TAG_PREFIX
 }
+
